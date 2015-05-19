@@ -1,0 +1,15 @@
+body {
+	padding-top: 70px;
+	padding-right: 70px;
+	padding-left: 70px;
+}
+
+h1 {
+	font-size: 95px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.main {
+	height: 7000px;
+}
