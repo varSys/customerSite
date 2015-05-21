@@ -1,3 +1,5 @@
 Helpful Links and Information
 
 http://rogerdudler.github.io/git-guide/ - Git - The Simple Guide
+
+http://www.apaddedcell.com/how-automatically-include-your-header-navigation-and-footer-every-page - SSI and PHP Includes - Has some info on how to create reusable elements (e.g. header) for web pages using PHP also has links to info server side includes. 
