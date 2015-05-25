@@ -23,7 +23,7 @@ h3 {
 }
 
 .main {
-	height: 1000px;
+	height: 500px;
 	text-align: center;
 	border-style: solid;
 	border-width: medium;
@@ -34,4 +34,28 @@ h3 {
 	text-align: center;
 	border-style: solid;
 	border-width: medium;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.underline {
+	text-decoration: underline;
 }
