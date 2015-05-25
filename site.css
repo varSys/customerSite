@@ -10,6 +10,28 @@ h1 {
 	text-align: center;
 }
 
+h2 {
+	font-size: 80px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h3 {
+	font-size: 70px;
+	font-weight: bold;
+	text-align: center;
+}
+
 .main {
-	height: 7000px;
+	height: 1000px;
+	text-align: center;
+	border-style: solid;
+	border-width: medium;
+}
+
+.second {
+	height: 500px;
+	text-align: center;
+	border-style: solid;
+	border-width: medium;
 }
