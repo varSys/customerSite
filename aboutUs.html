@@ -31,10 +31,38 @@
 		<link rel="stylesheet" type="text/css" href="site.css">
 		
 		<div ng-include src="'header.html'"></div>
-		<h2>About Us</h2>
+		<h3>About Us</h3>
+
+		
 	</head>
 	 <body>
-		<!--div ng-include src="'header.html'"></div-->
+		
 	<script src= "custSite.js"></script>
+			
+		<script>
+		<!--none of this is working-->
+		$(window).bind("load", function() {
+		
+		var currentPage = document.location.href.match(/[^\/]+$/)[0];
+		var page = currentPage.replace(".html","");
+		
+		$("li[id=page]").addClass("active");
+});
+		
+		$(document).ready(function() {
+		
+		var currentPage = document.location.href.match(/[^\/]+$/)[0];
+		var page = currentPage.replace(".html","");
+		
+		$("li[id=page]").addClass("active");
+		
+		$('h2').hover(function() {
+		$(this).fadeOut( 100 );
+		$(this).fadeIn( 500 );
+		
+		});
+
+		});
+		</script>
 	</body>
 </html>
