@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html ng-app="customerSite">
+  <head ng-controller="header">
   
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -35,19 +35,11 @@
 		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
+		
 		<div ng-include="'header.html'"></div>
 	</head>
 	<body>
-	<nav class="navbar navbar-default navbar-fixed-top navbar-left">
-		<div class="container">
-			<ul class="nav nav-pills">
-				<li role="presentation" class="active"><a id="nav1" href="index.html">Home</a></li>
-				<li role="presentation"><a href="services.html">Services</a></li>
-				<li role="presentation"><a href="aboutUs.html">About Us</a></li>
-				<li role="presentation"><a href="contact.html">Contact</a></li>
-			</ul>
-		</div>
-	</nav>
+
     <h1>DeviceFul</h1>
 	<div class="main">
 		Main Body Div
@@ -55,5 +47,7 @@
 	<div class="second">
 		Secondary Div
 	</div>
+	
+	<script src= "custSite.js"></script>
   </body>
 </html>
