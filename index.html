@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html ng-app="customerSite">
-  <head ng-controller="header">
+  <head class="header">
   
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,18 +8,13 @@
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 		
 		<title>DeviceFul</title>
-		
+			
 		<!-- Angular.js -->
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
-		
-    	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    	<script src="bower_components/jquery/dist/jquery.min.js"></script>
-	
-    	<!-- Include all compiled plugins (below), or include individual files as needed -->
-    	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-		
-		<!-- Bootstrap -->
-		
+		<script src="bower_components/angularjs/angular.min.js"></script>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 		<!-- Optional theme bower_components\bootstrap\dist\css-->
@@ -28,7 +23,7 @@
 		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 		
 		<!-- CSS -->
-		<link rel="stylesheet" type="text/css" href="site.css">
+		<link rel="stylesheet" type="text/css" href="css/site.css">
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -41,13 +36,20 @@
 	<body>
 
     <h1>DeviceFul</h1>
+	
 	<div class="main">
-		Main Body Div
+		A man and his macbook
 	</div>
 	<div class="second">
 		Secondary Div
 	</div>
 	
+	<footer class="footer">
+		<div ng-include="'footer.html'"></div>
+	</footer>
+	
 	<script src= "custSite.js"></script>
+
   </body>
+
 </html>

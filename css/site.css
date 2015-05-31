@@ -1,0 +1,80 @@
+body {
+	padding-top: 70px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+h1 {
+	font-size: 95px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2 {
+	font-size: 80px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h3 {
+	font-size: 70px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.main {
+	height: 500px;
+	width: 100%;
+	text-align: center;
+	border-style: solid;
+	border-width: medium;
+	background-image:url("../images/macbookPro.jpg");
+	background-size: cover;
+}
+
+.second {
+	height: 500px;
+	text-align: center;
+	border-style: solid;
+	border-width: medium;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.header {
+	ng-controller:"header";
+}
+
+.footer {
+	ng-controller:"footer"; 
+	font-size:65%;
+}
+
+.halfWidth{
+	width: 50%;
+	float: left;
+	padding-right: 50px;
+	padding-left: 50px;
+}
