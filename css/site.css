@@ -28,6 +28,16 @@ h3 {
 	text-align: center;
 	border-style: solid;
 	border-width: medium;
+	background-image:url("../images/internet.jpg");
+	background-size: cover;
+}
+
+div.main:hover {
+	height: 500px;
+	width: 100%;
+	text-align: center;
+	border-style: solid;
+	border-width: medium;
 	background-image:url("../images/macbookPro.jpg");
 	background-size: cover;
 }

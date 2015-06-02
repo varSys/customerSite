@@ -12,6 +12,10 @@ customerSite.controller('footer', function ($scope) {
 $(document).ready(function() {
 	 $(".footer").hide();
 	 
+/* 	 $(".main").hover(function(){
+	 $(".main").css('background-image','url(../images/internet.jpg)');
+}); */
+	 
 	 if($(window).height() == $(document).height()){
 	 $(".footer").show();
    }
@@ -29,4 +33,6 @@ $(window).scroll(function() {
 	 $(".footer").hide();
    }
 });
+
+
 	
